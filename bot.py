@@ -3,6 +3,7 @@
 
 import requests
 import secrets
+
 # initial groupme API URL
 url = 'https://api.groupme.com/v3/bots/post'
 
@@ -20,7 +21,6 @@ m_Shouts = ['LETS GO!',
             'EVEN U ZHANG',
             'LETS GET THIS BREAD',
             'LETS DO THIS SHIT']
-
 
 # build the request 
 data = {
