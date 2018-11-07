@@ -9,8 +9,8 @@ url = 'https://api.groupme.com/v3/bots/post'
 
 # nouns
 m_Nouns = [ 'YOU CRAZY KIDS',
-            'YOU SHITBIRDS',
-            'ANDREW "RICKY C" MUNSTER',
+            # 'YOU SHITBIRDS',
+            # 'ANDREW "RICKY C" MUNSTER',
             'PARTY PEOPLE']
 
 # shouts
