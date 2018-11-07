@@ -20,7 +20,8 @@ m_Shouts = ['LETS GO!',
             'IM SORRY ABOUT MY LATE FEE RIA',
             'EVEN U ZHANG',
             'LETS GET THIS BREAD',
-            'LETS DO THIS SHIT']
+            'LETS DO THIS SHIT',
+            'LETS ENGINERD']
 
 # build the request 
 data = {
