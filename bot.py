@@ -7,9 +7,10 @@ import secrets
 url = 'https://api.groupme.com/v3/bots/post'
 
 # nouns
-m_Nouns = ['YOU CRAZY KIDS',
-        'YOU SHITBIRDS',
-        'ANDREW "RICKY C" MUNSTER']
+m_Nouns = [ 'YOU CRAZY KIDS',
+            'YOU SHITBIRDS',
+            'ANDREW "RICKY C" MUNSTER',
+            'PARTY PEOPLE']
 
 # shouts
 m_Shouts = ['LETS GO!',
@@ -17,7 +18,8 @@ m_Shouts = ['LETS GO!',
             'TECH HALL STILL SMELLS BAD',
             'IM SORRY ABOUT MY LATE FEE RIA',
             'EVEN U ZHANG',
-            'LETS GET THIS BREAD']
+            'LETS GET THIS BREAD',
+            'LETS DO THIS SHIT']
 
 
 # build the request 
