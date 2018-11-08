@@ -1,4 +1,4 @@
-# !bin/python3
+# !/bin/python3
 # this script is meant to hype up the REAL OG's group me every morning
 # WORK IN PROGRESS OK
 
