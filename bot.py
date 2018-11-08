@@ -14,24 +14,25 @@ m_Nouns = [ 'YOU CRAZY KIDS',
             'ANDREW "RICKY C" MUNSTER',
             'PARTY PEOPLE',
             'NERDS',
-            'GAMERS?',
+            'GAMERS',
             'BABY SHARKS']
 
 # shouts
 m_Shouts = ['LETS GO!',
-            'AND EAT SHIT CHANG',
-            'TECH HALL STILL SMELLS BAD',
-            'IM SORRY ABOUT MY LATE FEE RIA',
-            'EVEN U ZHANG',
-            'LETS GET THIS BREAD',
-            'LETS DO THIS SHIT',
-            'LETS ENGINERD',
+            'EAT SHIT CHANG.',
+            'TECH HALL STILL SMELLS BAD.',
+            'SORRY ABOUT MY LATE FEE RIA.',
+            'EVEN U ZHANG.',
+            'LETS GET THIS BREAD!',
+            'LETS DO THIS SHIT!',
+            'LETS ENGINERD!',
             'LETS YEET THIS YEAST',
-            'LETS GET THIS MF GUALA',
+            'LETS GET THIS MF GUALA!',
             'IT\'S TIME TO DO DO DO DOOO DOOOOOO']
 
 # build the request 
-data = {"text" : "RISE AND GRIND {0}, {1}".format(secrets.choice(m_Nouns), secrets.choice(m_Shouts)), 
+data = {"text" : "RISE AND GRIND {0}, {1}".format(secrets.choice(m_Nouns),
+                                                secrets.choice(m_Shouts)), 
         "bot_id" : "2e542107791110329aabd6cbd9"}
 
 # Run that shit
