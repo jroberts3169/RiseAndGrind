@@ -2,7 +2,6 @@
 # this script is meant to hype up the REAL OG's group me every morning
 # WORK IN PROGRESS OK
 
-# TODO: merge this branch with the master
 # TODO: Change the bot_id to a variable I can change at will
 # TODO: fix the path variables in the damn shebang line so it will
 #       use python3.6 by default and not use the explicit path var
@@ -10,6 +9,9 @@
 
 import requests
 import secrets
+
+test_group = "2e542107791110329aabd6cbd9"
+OGs_group = "7ba46a2f9140727115d4c715cd"
 
 # initial groupme API URL
 url = 'https://api.groupme.com/v3/bots/post'
@@ -39,7 +41,7 @@ m_Shouts = ['LETS GO!',
 # build the request 
 data = {"text" : "RISE AND GRIND {0}, {1}".format(secrets.choice(m_Nouns),
                                                 secrets.choice(m_Shouts)), 
-        "bot_id" : "2e542107791110329aabd6cbd9"}
+        "bot_id" : test_group}
 
 # Run that shit
 response = requests.post(url, data=data)
