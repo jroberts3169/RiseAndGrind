@@ -1,6 +1,11 @@
-# !bin/python3
+# !/bin/python3
 # this script is meant to hype up the REAL OG's group me every morning
 # WORK IN PROGRESS OK
+
+# TODO: Change the bot_id to a variable I can change at will
+# TODO: fix the path variables in the damn shebang line so it will
+#       use python3.6 by default and not use the explicit path var
+# TODO: learn how to pull and push shit with git a little better
 
 import requests
 import secrets
