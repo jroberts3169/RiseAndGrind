@@ -2,7 +2,6 @@
 # this script is meant to hype up the REAL OG's group me every morning
 # WORK IN PROGRESS OK
 
-# TODO: Change the bot_id to a variable I can change at will
 # TODO: fix the path variables in the damn shebang line so it will
 #       use python3.6 by default and not use the explicit path var
 # TODO: learn how to pull and push shit with git a little better
@@ -36,7 +35,8 @@ m_Shouts = ['LETS GO!',
             'LETS ENGINERD!',
             'LETS YEET THIS YEAST',
             'LETS GET THIS MF GUALA!',
-            'IT\'S TIME TO DO DO DO DOOO DOOOOOO']
+            'IT\'S TIME TO DO DO DO DOOO DOOOOOO',
+            'IT\'S GUUUCCI!']
 
 # build the request 
 data = {"text" : "RISE AND GRIND {0}, {1}".format(secrets.choice(m_Nouns),
