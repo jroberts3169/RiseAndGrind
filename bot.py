@@ -36,8 +36,7 @@ m_Shouts = ['LETS GO!',
             'LETS YEET THIS YEAST',
             'LETS GET THIS MF GUALA!',
             'IT\'S TIME TO DO DO DO DOOO DOOOOOO',
-            'IT\'S GUUUCCI!',
-            'JUST TESTING MKAY']
+            'IT\'S GUUUCCI!']
 
 # build the request 
 data = {"text" : "RISE AND GRIND {0}, {1}".format(secrets.choice(m_Nouns),
