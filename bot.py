@@ -26,7 +26,7 @@ m_Nouns = [ 'YOU CRAZY KIDS',
 
 # shouts
 m_Shouts = ['LETS GO!',
-            'EAT SHIT CHANG.',
+            'EAT SHIT CHUNG.',
             'TECH HALL STILL SMELLS BAD.',
             'SORRY ABOUT MY LATE FEE RIA.',
             'EVEN U ZHANG.',
