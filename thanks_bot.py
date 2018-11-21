@@ -18,7 +18,7 @@ m_Nouns = [ 'HAPPY THANKSGIVING']
 m_Shouts = ['YOU KRAZY KIDS!!']
 
 # build the request 
-data = {"text" : "{0}, {1}".format(secrets.choice(m_Nouns),
+data = {"text" : "{0} {1}".format(secrets.choice(m_Nouns),
                                                 secrets.choice(m_Shouts)), 
         "bot_id" : test_group}
 
