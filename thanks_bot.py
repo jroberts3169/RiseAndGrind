@@ -20,7 +20,7 @@ m_Shouts = ['YOU KRAZY KIDS!!']
 # build the request 
 data = {"text" : "{0} {1}".format(secrets.choice(m_Nouns),
                                                 secrets.choice(m_Shouts)), 
-        "bot_id" : test_group}
+        "bot_id" : OGs_group}
 
 # Run that shit
 response = requests.post(url, data=data)
